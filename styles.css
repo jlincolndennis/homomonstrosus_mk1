@@ -41,7 +41,7 @@ body {
 
 
 .label_good {
-  padding: 5px;
+  padding: 4px;
   background-color: #C2E812;
   color: black;
   font-family: monospace;
@@ -50,7 +50,7 @@ body {
 }
 
 .label_info {
-  padding: 5px;
+  padding: 4px;
   background-color: #00E8FC;
   color: black;
   font-family: monospace;
@@ -103,8 +103,8 @@ a:visited, h2 a:visited, h3 a:visited, h4 a:visited {
 }
 
 main {
-  min-width: 45%;
-  margin: 25px;
+  min-width: 70%;
+  margin: 25px 5px;
   border-left: 5px solid #FF006E;
   background-color: white;
 }
@@ -129,7 +129,7 @@ main {
 
 .copy {
   margin-left: 25px;
-  padding: 25px;
+  padding: 15px;
   background-color: white;
   border-left: 5px solid #FEB729;
 }
@@ -162,7 +162,7 @@ main {
 
 .card p {
   margin-bottom: 0;
-  padding-left: 25px;
+  padding-left: 10px;
 }
 
 footer {
@@ -225,3 +225,48 @@ footer section {
   font-weight: bold;
   font-size: 1.25em;
 }
+
+@media screen and (max-width: 450px) {
+  .group, .subgroup {
+    margin: 25px 5px;
+    padding: 5px;
+  }
+
+  .copy, .card {
+    margin: 15px 5px;
+  }
+
+  .subgroup h3 {
+    font-size: 2em;
+  }
+
+  .group h2 {
+    font-size: 2.5em;
+  }
+
+  footer {
+    margin: 5px;
+    padding: 5px;
+  }
+
+  footer section {
+    margin: 50px 5px;
+  }
+
+  .colophon {
+    padding: 15px;
+  }
+
+  .colophon .colors {
+    max-width: 100%;
+  }
+
+
+}
+
+/* @media screen and (min-width: 451px)  and (max-width: 1024px) {
+  .content {
+    width: auto;
+    margin: 50px 25px 50px;
+  }
+} */
