@@ -227,6 +227,10 @@ footer section {
 }
 
 @media screen and (max-width: 450px) {
+  header h1 {
+    font-size: 3em;
+  }
+
   .group, .subgroup {
     margin: 25px 5px;
     padding: 5px;
@@ -253,12 +257,21 @@ footer section {
     margin: 50px 5px;
   }
 
+  footer h3 {
+    font-size: 1em;
+  }
+
   .colophon {
     padding: 15px;
   }
 
   .colophon .colors {
     max-width: 100%;
+  }
+
+  .changelog p {
+    margin-left: 10px;
+
   }
 
 }
