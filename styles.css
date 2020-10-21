@@ -166,7 +166,7 @@ main {
 }
 
 footer {
-  margin: 50px 100px;
+  margin: 250px 100px 25px 100px;
   padding: 25px;
   min-width: 60%;
 }
@@ -203,7 +203,7 @@ footer h2 {
 }
 
 footer section {
-  margin: 50px 100px;
+  margin: 25px 50px 250px 50px;
 }
 
 .changelog h3 {
@@ -249,12 +249,13 @@ footer section {
   }
 
   footer {
-    margin: 5px;
+    margin: 250px 5px 25px 5px;
     padding: 5px;
   }
 
   footer section {
-    margin: 50px 5px;
+    margin: 25px 5px 250px 5px;
+
   }
 
   footer h3 {
